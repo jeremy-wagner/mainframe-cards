@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==75.1.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intcalc"
+version = "0.1.0"
+description = "Python port of CardDemo monthly interest batch (CBACT04C / INTCALC)"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.3"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["intcalc*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
