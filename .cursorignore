@@ -1,0 +1,28 @@
+# Data files (large, binary or real-looking records)
+*.dat
+*.ps
+*.vsam
+*.ebcdic
+app/data/
+
+# Build output and binaries
+*.load
+*.obj
+*.bin
+build/
+dist/
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Archives, images and docs that add noise
+*.zip
+*.tar.gz
+*.pdf
+*.png
+*.jpg
+
+# Logs
+*.log

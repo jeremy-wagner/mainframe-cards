@@ -1,0 +1,12 @@
+---
+description: Secure coding rules for all code
+alwaysApply: true
+---
+- Follow the OWASP Top 10. Flag any code that could fall into one of its categories.
+- Use parameterized queries. Never build SQL or shell commands by joining strings with input.
+- Validate all external input at the boundary.
+- Never hard-code secrets, keys or passwords. Read them from the environment or a secrets manager.
+- Never log full card numbers, account numbers or personal data. Mask card numbers to the last four digits.
+- Use the secrets module for tokens, never random.
+- Check authorization before any action on an account.
+- Don't add a dependency without saying why, and pin its version.

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      { "command": ".cursor/hooks/block-push-main.sh" },
+      { "command": ".cursor/hooks/block-secrets-shell.sh" }
+    ],
+    "beforeReadFile": [
+      { "command": ".cursor/hooks/block-secrets.sh", "failClosed": true }
+    ]
+  }
+}

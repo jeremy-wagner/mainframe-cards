@@ -1,0 +1,8 @@
+---
+description: Rules for migrated code
+alwaysApply: true
+---
+- Represent money with Python's decimal.Decimal. Never use float.
+- Match COBOL rounding: fields marked ROUNDED use ROUND_HALF_UP. Others truncate (ROUND_DOWN).
+- Keep every business rule from the COBOL, and cite the COBOL line in a comment.
+- Never edit the original COBOL files.
