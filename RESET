@@ -1,0 +1,5 @@
+# GIT
+git reset --hard demo-start
+git clean -fd
+
+
