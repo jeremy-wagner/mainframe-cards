@@ -8,4 +8,4 @@ disable-model-invocation: true
 3. For each piece, list what it does, the business rules it must keep with source line numbers, and its dependencies.
 4. Put the pieces in dependency order.
 5. Stop and wait for the engineer to approve or change the plan.
-6. Once approved, create one Jira story per piece under the epic, with its business rules as acceptance criteria.
+6. Once approved, create one Jira story per piece under the epic, with its business rules as acceptance criteria. Then move each story to Ready.
