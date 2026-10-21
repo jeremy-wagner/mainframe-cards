@@ -4,7 +4,7 @@ description: Build one modernization ticket in the target language while keeping
 disable-model-invocation: true
 ---
 1. Move the Jira story you were given to In Progress. Read it, its business rules, and its parent epic for the source program and target.
-2. Build that piece in python/, following the project rules.
+2. Build that piece in python/, following the project rules. Ignore other GitHub branches.
 3. Keep every business rule, and cite its source line in a comment.
 4. Never edit the original legacy code.
 5. Commit on a new branch named after the ticket, push it, and open a pull request. Write the description for a reviewer who hasn't seen this work, with these sections:
